@@ -20,13 +20,13 @@
 
 
 ### MODS scRNA-seq data analysis
-1. Download the Cell ranger process data from GSE269751.
-2. Import all the hd5 files into R
-3. Process the data using the scRNA-seq_processing.R. It will process all the files and integrate it into one seurat object with the cell annotation. It also provide the number of differentially expressed genes in MODS for each cell type. 
-4. Bulk_gene_Expression_cell_cycle_analysis.R help to visualized he upregulated genes from our bulk RNA-seq data and estimate the cell cycle phase for all the cell types.
-5. Cell_type_DE_genes_pathways.R helps to perform the DE analysis for each cell type and provide the barplot for upregulated and downregulated genes.
-6. Cell_subtype_cycle_analysis.R code will generate the cell type specific cell cycle phase distribution and generate a figure for percentage of cells with G1, G2M and S phase.
-7. Cell_cell_communication.R will help to perform the cell cell interactions analysis and generate all the figures.
-8. InferCNV_analysis.R generate the InferCNV data.
-9. Surface protein directory has three code to estimate the cell surface protein aboundance in control and MODS and compute their differential expression in MODS.
-10. Code_to_visualization_of_plot directory has five codes for visualization of results. The plot_boxplot, plot_voilinplot, and plot_dotplot can be used to compare two groups, while Boxplot_multilevel.R can be used to compare more than two groups. Addtionally, Code_for_matrix_dotplot.R can be used to plot the matrix dotplot such as correlation plot. 
+1. Download the Cell Ranger processed data from GSE269751.
+2. Import all the HDF5 files into R.
+3. Use the `scRNA-seq_processing.R` script to process all files and integrate them into one Seurat object with cell annotation. It also provides the number of differentially expressed genes in MODS for each cell type.
+4. The `Bulk_gene_Expression_cell_cycle_analysis.R` script visualizes upregulated genes from bulk RNA-seq data and estimates the cell cycle phase for all cell types.
+5. The `Cell_type_DE_genes_pathways.R` script performs differential expression (DE) analysis for each cell type and provides bar plots for upregulated and downregulated genes.
+6. The `Cell_subtype_cycle_analysis.R` script generates cell type-specific cell cycle phase distributions and creates a figure showing the percentage of cells in G1, G2M, and S phases.
+7. The `Cell_cell_communication.R` script performs cell-cell interaction analysis and generates all the relevant figures.
+8. The `InferCNV_analysis.R` script generates the InferCNV data.
+9. The Surface Protein directory contains three scripts to estimate cell surface protein abundance in control and MODS samples and compute their differential expression in MODS.
+10. The `Code_to_visualization_of_plot` directory contains five scripts for visualizing results. The `plot_boxplot`, `plot_violinplot`, and `plot_dotplot` scripts compare two groups, while `Boxplot_multilevel.R` can compare more than two groups. Additionally, `Code_for_matrix_dotplot.R` can plot matrix dot plots, such as correlation plots. 
