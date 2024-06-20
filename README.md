@@ -1,5 +1,5 @@
 # MODS
-MODS data analysis
+MODS RNA-seq data analysis
 1. Author: ramashankar@hc.msu.edu ramashankar12@gmail.com
 
 2. Steps to reproduce the analysis and figures:
@@ -17,3 +17,4 @@ MODS data analysis
 	c. PCA_plot_for_clustering_patients.R
 	d. Heatmaps_and_boxplot.R
 	e. Risk_score_and_AUC_plot.R
+# MODS scRNA-seq data analysis
