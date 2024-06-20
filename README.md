@@ -29,4 +29,9 @@
 7. The `Cell_cell_communication.R` script performs cell-cell interaction analysis and generates all the relevant figures.
 8. The `InferCNV_analysis.R` script generates the InferCNV data.
 9. The Surface Protein directory contains three scripts to estimate cell surface protein abundance in control and MODS samples and compute their differential expression in MODS.
-10. The `Code_to_visualization_of_plot` directory contains five scripts for visualizing results. The `plot_boxplot`, `plot_violinplot`, and `plot_dotplot` scripts compare two groups, while `Boxplot_multilevel.R` can compare more than two groups. Additionally, `Code_for_matrix_dotplot.R` can plot matrix dot plots, such as correlation plots. 
+10. The `Code_to_visualization_of_plot` directory contains five scripts for visualizing results. The `plot_boxplot`, `plot_violinplot`, and `plot_dotplot` scripts compare two groups, while `Boxplot_multilevel.R` can compare more than two groups. Additionally, `Code_for_matrix_dotplot.R` can plot matrix dot plots, such as correlation plots.
+
+# Citations:
+### For RNA-seq data
+Shankar R, Leimanis ML, Newbury PA, Liu K, Xing J, Nedveck D, Kort EJ, Prokop JW, Zhou G, Bachmann AS, Chen B, Rajasekaran S. Gene expression signatures identify paediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine. 2020 Dec;62:103122. doi: 10.1016/j.ebiom.2020.103122. Epub 2020 Nov 25. PMID: 33248372; PMCID: PMC7704404.
+
