@@ -1,6 +1,6 @@
 # MODS
 MODS data analysis
-1. Author: ramashankar@hc.msu.edu ramashankar12@gmail.com
+1. Author: ramashan@msu.edu ramashankar12@gmail.com
 
 2. Steps to reproduce the analysis and figures:
 
